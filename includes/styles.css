@@ -1,0 +1,230 @@
+/*
+    Special colors.
+    H1 headers  #e36c0d (orange)
+    Text background in top page #ffd899 (orange in top background)
+    Some second level headers #7692c3 (green)
+*/
+@font-face {
+    font-family: "GillSansW04-UltraBold";
+    src: url("/Fonts/1122866/1fde3465-c276-44b5-89b3-712efefa30af.eot?#iefix");
+    src: url("/Fonts/1122866/1fde3465-c276-44b5-89b3-712efefa30af.eot?#iefix")
+    format("eot"), url("/Fonts/1122866/3e2da7ab-9a69-4798-8ce4-47951d308a08.woff2")
+    format("woff2"), url("/Fonts/1122866/f1890f4d-f29f-4d5d-a8d8-82673ab32306.woff")
+    format("woff"), url("/Fonts/1122866/f7c88888-b03c-4791-ad25-8b8ade6d52d5.ttf")
+    format("truetype");
+}
+
+body {
+    /*font-family: Arial, sans-serif;*/
+    font-family: Calibri, serif;
+    font-size: 0.9em;
+    color: #555;
+    background-color: #ccc;
+    margin-top: 0.2em;
+}
+
+@media only screen and (max-width: 800px) {
+    body { font-size:50%;}
+}
+h1, h2, h3, h4 {font-family: 'GillSansW04-UltraBold', 'Arial black', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0.5em;}
+h1 {font-size: 2.6em;
+    color: #e36c0b; /* ny foreslått farge */
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;}
+.wrapper{
+    background-color: #ccc;
+    width: 80%;
+    padding: 0.8em;
+    margin:auto;
+}
+.header, .section, .footer{
+    width: 98%;
+    margin: auto 0 0.7em 0;
+    border-radius: .5em ;
+    border: solid thin;
+    padding: 0.3em;
+    background-color: #ddd;
+}
+.topp {
+    font-family: 'Arial black', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.2em 0 0.3em 0;}
+
+/* Start footer menu */
+.footer p {
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+.footer ul{
+    font-size: 1.0em;
+}
+
+#nav {text-align:center; }
+#nav li {display:inline;}
+#nav a {text-decoration:none;
+    padding: 0 1.5em;
+    color: #e36c0b;
+    font-weight: bold;}
+#nav a:hover {color: #888;
+    text-decoration: underline}
+/* End footer menu */
+
+.square {
+    font-size: 1.2em;
+    position: relative;
+    top: 0.07em;
+}
+dl{
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+dt{line-height: 1.7em}
+dt a{
+    color: #555;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+dt a:hover{
+    color: #000;
+}
+dd .italics {font-style: italic;}
+
+.left{float: left; margin-bottom: 1em;}
+.right{float: right}
+.leftArticle, .rightArticle{
+    width: 45%;
+    margin: 0 0 0 2.5em ;
+}
+.leftArticle{float: left;}
+.rightArticle{float: left;  }
+.rightArticle a{color: #555;}
+.prevNext a {color: #555;}
+.arrow{font-size: 14pt}
+
+.videoFrame{    /* Contains HTML5 videoframe */
+    text-align: center;
+    padding: 2.0em 0 2.0em 0 ;
+}
+.observeasjonerBakgrunn{
+    background: url(/images/ObservasjonerBackGround.jpg) left top ;
+    background-size: 100%;
+}
+.invisible{
+    display: none;
+}
+/* CSS for Operasjon Olav + evt. andre slideshow */
+.bildeStrip{
+    width: 15%;
+    float: left;
+    margin: auto;
+    margin-top: 0.3em;
+    text-align: center;
+}
+.bilde{
+    width: 85%;
+    float: left;
+    margin: auto;
+}
+.imgThumb{
+    width: 98%;
+    border: solid 1px #888;
+}
+.imgThumbSelected{
+    border: solid 0.3em #e36c0b;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.imgBilde{
+    width: 100%;
+    border: solid 1px #888;
+    margin-top: 3px;
+}
+.seriesSelction{
+    text-align: center;
+    font-size: 1.2em;
+}
+.tMenu{
+
+    font-size: 1.0em;
+    margin: 0.25em;
+    padding:0.20em;
+    border: solid 1px #888;
+    border-radius: .3em .3em 0 0;
+}
+.tMenuSelected{
+    font-weight: bold;
+    background-color: #ccc;
+}
+.seriesSelction a{
+    color: #666;
+    text-decoration: none;
+}
+.seriesSelction a:hover{
+    color: #000;
+}
+.nextPrev{
+    color: #999;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: solid 1px #888;
+    padding: 0 0.5em 0 0.5em;
+}
+.notActive {
+    pointer-events: none;
+    cursor: default;
+    color: #bbb;
+}
+/* formattere blokker på hoved index-side */
+.subText{
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 1.0em;
+}
+.frontBox {
+    margin: 0.3em auto 0.9em auto;
+    border-radius: 0.3em;
+    border: solid 1px #888;
+    background-color: #ffd89d;
+    float: none;
+    width: auto;
+    overflow: hidden;
+}
+.frontBox a {text-decoration:none;
+    color: #76943c;
+}
+.flexBox {
+    margin: auto;
+    width: 70%;
+}
+
+img.menuIll{width: 100%}
+
+.linkBox{
+    padding: 5px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .flexBox {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .frontBox {
+        width: 30%;
+    }
+}
+

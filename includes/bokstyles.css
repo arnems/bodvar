@@ -1,0 +1,30 @@
+
+/* Stilark for presentasjon av bøker */
+.bokwrapper {
+    padding: 0.6em;
+    padding-left: 1.5em;
+    font-size: 1.2em;
+    margin: auto;
+    margin-left: 0.7em;
+}
+
+img.omslag {
+    float: left;
+    box-sizing: border-box;
+    margin: 0 0.5em 0.5em 0.1em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: solid #888 1px ;
+}
+
+.beskrivelse {
+    width: 98%;
+}
+
+img.forfatter {
+    float: right;
+    padding:0.3em;
+    margin : auto;
+}
+.kommentar{font-weight: bold;
+}
