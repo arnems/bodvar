@@ -1,0 +1,40 @@
+GroupID;    Norwegion text;         Norvegian text;         Enabled
+01;         world scene;            verdensscenen;          true
+02;         world scene 2;          verdensscenen 2;        true
+03;         ‘sacred geometry’;      'hellig geometri';      true
+04;         exodus images;          exodus-bilder;          true
+05;         great pyramid images;   den store pyramide;     true
+06;         natural catastrophes;   naturkatastrofer;       true
+07;         cultural / human catastrophes;kulturelle / menneskelige katastrofer ; true
+08;         terror;                 terror;                 true
+09;         marian symbols;         mariasymboler;          true
+10;         marian symbols 2;       mariasymboler 2;        true
+11;         the ‘arabian spring’;   ‘den arabiske våren’;   true
+12;         earth globe riddles;    jordklodegåter;         true
+13;         yeshuan symbols;        jesus-symboler;         true
+14;         yeshuan symbols 2;      jesus-symboler 2;       true
+15;         popes of renewal;       paver for fornyelse;    true
+16;         popes of renewal 2;     paver for fornyelse 2;  true
+17;         the olavian scene;      hellig olavs spor;      true
+18;         hiding number;          skjulte tall;           true
+19;         unseen jerusalem;       usett jerusalem;        true
+20;         unseen jerusalem 2;     usett jerusalem 2;      true
+21;         ezekiel’s temple vision;ezekiels tempelvisjon;  true
+22;         birth of churches;      kirkedannelser;         true
+23;         ring castle story;      ringborgbilder;         true
+24;         images of ascent;       vei for oppstigning;    true
+25;         ‘chamber music’;        ‘kammermusikk’;         true
+26;         ‘chamber music’ 2;      ‘kammermusikk’ 2;       true
+27;         ‘paradise flowers’;     ‘paradisblomster’;      false
+28;         trans-atlantic pictures;transatlantiske bilder; true
+29;         the’ guest from afar’;  ‘gjesten langveisfra’;  trur
+30;         chartres’ labyrinth;    chartres-labyrinten;    true
+31;         unseen body;            mer enn kropp;          true
+32;         unseen body 2;          mer enn kropp 2;        true
+33;         pyramid news;           nyheter om pyramider;   true
+34;         the nile valley family; andre nildals-pyramider;true
+35;         tradition & legend;     tradisjon & legende;    true
+36;         nordic images;          norden i fokus;         true
+37;         decalogue codes;        ti-bud-koder;           true
+38;         illuminating levels;    nivåer;                 true
+39;         focus on obama;         fokus på obama;         true

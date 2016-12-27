@@ -1,0 +1,317 @@
+/*
+for all php-files
+*/
+@font-face {
+    font-family: "GillSansW04-UltraBold";
+    src: url("../../Fonts/1122866/1fde3465-c276-44b5-89b3-712efefa30af.eot?#iefix");
+    src: url("../../Fonts/1122866/1fde3465-c276-44b5-89b3-712efefa30af.eot?#iefix")
+    format("eot"), url("../../Fonts/1122866/3e2da7ab-9a69-4798-8ce4-47951d308a08.woff2")
+    format("woff2"), url("../../Fonts/1122866/f1890f4d-f29f-4d5d-a8d8-82673ab32306.woff")
+    format("woff"), url("../../Fonts/1122866/f7c88888-b03c-4791-ad25-8b8ade6d52d5.ttf")
+    format("truetype");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 0.85em;
+    background-color: #ccc;
+}
+
+.narrow {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'GillSansW04-UltraBold', 'Arial black', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1.index {
+    font-size: 3.9em;
+    color: #e36c0b;
+    margin: 10px 0 10px 0;
+}
+
+h2.index {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+.floatWrapIndex {
+    width: 1150px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.floatWrapPosters {
+    min-width: 900px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/*
+Style for index.php
+*/
+.middle {
+    margin: 0 0 10px 0;
+}
+
+.header, footer {
+    display: block;
+    text-align: center;
+    width: 98%;
+    margin: 0 5px 5px 5px;
+    padding-right: 6px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+strong {
+    font-size: 14px;
+}
+
+.leftText, .rightText {
+    float: left;
+    display: block;
+    width: 48%;
+    margin: 0 5px 5px 5px;
+    border: 1px solid #555;
+    border-radius: 0.3em;
+    background-color: #ddd;
+}
+.leftText {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.rightText {
+    padding-left: 0.5em;
+}
+/* Start footer menu */
+#nav {text-align:center;}
+#nav li {display:inline;}
+#nav a {text-decoration:none; padding:0 1.5em;  color: #555;}
+#nav a:hover {color: #000; text-decoration: underline}
+/* End footer menu */
+.arrow {
+    font-size: 3.0em;
+    line-height: 0.5em;
+}
+.arrow a{color: #555}
+.arrow a:hover{text-decoration: none;}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #e36c0b;
+}
+/*a:visited{
+    text-decoration: underline;
+    color: green;
+}*/
+.enabled{
+    color: #000;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: #888;
+}
+
+/*Used when disabeling magnifier glass*/
+.none { }
+/* color for list of groups */
+
+/*
+Style for posters.php
+*/
+.parent {
+    white-space: nowrap;
+}
+.tekstfelt1, .tekstfelt2{
+    float: left;
+    display: block;
+    height: 58em;
+    border: 0.1em solid #555;
+    border-radius: 1.0em;
+    background-color: #ddd;
+    z-index: -1;
+}
+.tekstfelt1 {
+    width: 20%;
+    padding: 0 0.3em 0 0.3em;
+    margin: 0 0.4em 0 0.3em;
+    font-size: 0.9em;
+}
+
+.tekstfelt2 {
+    position: relative;
+    width: 16%;
+    padding-left: 0.2em;
+    margin: 0 0 0 0.45em;
+    font-size: 0.89em;
+}
+
+.tekstfelt2 p, .tekstfelt2 strong {
+    font-family: 'Arial black', sans-serif;
+    font-size: 0.88em;
+    line-height: 0.91em;
+}
+
+.imageDiv {
+    width: 100%;
+}
+#plansjeDiv {
+    position: relative;
+    width: 60%;
+    height: 58em;
+    border-radius: 1.0em;
+    float: left;
+}
+
+video {
+    margin: 10px 10px 10px 0;
+    width: 280px;
+    height: 180px;
+}
+
+/* left side styles */
+.video {
+    display: block;
+    height: 200px;
+}
+
+.leftHead {
+    font-size: 2.2em;
+    font-family: 'GillSansW04-UltraBold', 'Arial black', sans-serif;
+    margin-bottom: 10px;
+}
+
+.topLeftHead {
+    color: #e36c0b;
+}
+
+.lowerLeftHead {
+    color: #808080;
+}
+
+.leftSeries {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.leftWrapper {
+    margin: 0 5px 0 10px;
+}
+
+.leftNorwegian {
+    font-size: 1.5em;
+    color: #808080;
+}
+
+.leftEnglish {
+    font-size: 1.5em;
+    color: #e36c0b
+}
+
+#comerce1 {
+    display: none;
+    font-size: 11px;
+    color: #444;
+    margin: 10px 10px 0 10px;
+}
+
+#comerce2 {
+    display: none;
+    font-size: 11px;
+    color: #444;
+    margin: 10px 10px 0 10px;
+}
+
+.control {
+
+    text-align: center;
+    margin-top: 30px;
+}
+.control h4{font-family: 'Arial Black', sans-serif !important;
+    font-size: 1.25em;
+    color: #808080;
+}
+.pictureLine{
+    /*background-color: #e36c0b;*/
+    font-size: 16px;
+    margin: 12px 0 5px 0;
+}
+
+.x {
+    background-color: #fff;
+}
+.returnButton {
+    margin-top: 3.0em;
+    background: #bbb;
+    padding: 0.9em 1.6em;
+    border-radius: 1.0em;
+    color: #444;
+    font-size: 1.0em;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+.returnButton:hover {
+    background: #ccc;
+    color: #666;
+}
+.magnifier{
+    margin: 1.5em;
+}
+.magnifyButton {
+    margin-top: 5px;
+    background: #bbb;
+    padding: 3px 3px;
+    border-radius: 6px;
+    color: #444;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+.magnifyButton:hover {
+    background: #ccc;
+    color: #666;
+}
+.magnifyButton:active {
+     background: #ccc;
+     color: #666;
+ }
+.container .text{
+    position: absolute;
+    margin-left: 0.5em;
+    bottom: 0.4em;
+}
+.text a {
+    font-size: 0.9em}
+
+/* copy from /includes/styles.css */
+.topp {
+    font-family: 'Arial black', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.2em 0 0.3em 0;}
+#nav {text-align:center; }
+#nav li {display:inline;}
+#nav a {text-decoration:none;
+    padding: 0 1.5em;
+    color: #ef541e;
+    font-weight: bold;}
+#nav a:hover {color: #888;
+    text-decoration: underline}
+.clearAll {
+    clear: both;
+}
